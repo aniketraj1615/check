@@ -1,11 +1,10 @@
 document.onkeydown = function (e) {
-    console.log("Your keycode is :" + e.keyCode);
-    if(e.keyCode==38){
-        mario=document.querySelector('.mario');
-        mario.classList.add('animateMario');
-        setTimeout(() => {
-            mario.classList.remove('animateMario');
-        }, 700);
-    }
- 
-}
+  console.log("Key code is: ", e.keyCode);
+  if (e.keyCode == 38) {
+    dino = document.querySelector(".dino");
+    dino.classList.add("animateDino");
+    setTimeout(() => {
+      dino.classList.remove("animateDino");
+    }, 700);
+  }
+};

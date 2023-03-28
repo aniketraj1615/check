@@ -4,6 +4,7 @@ ib-cov
  *.csv 
  *.dat 
  *.out 
+ 
  *.pid 
  *.gz 
  *.swp 
